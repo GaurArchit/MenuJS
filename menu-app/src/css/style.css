@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(75, 134, 168, 0.461);
+}
+#headerTitle{
+
+  text-align: center;
+  margin: 20px;
+  color: blue;
+}
+
+#headerBar{
+
+  width: 10%;
+  margin:0 auto;
+  border-top: 2px solid rgb(142,142,65);
+}
+#allButton{
+  text-align: center;
+  margin: 20px;
+}
+.categoryButton{
+  padding: 30px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: rgb(145, 149, 17);
+  border: 3px solid rgb(52, 52, 17);
+}
+
+.categoryButton:hover{
+  cursor: pointer;
+  border: 3px solid red;
+}
+#allDishes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+
+}
+
+.dish{
+  display: flex;
+  width: 45%;
+  margin-bottom: 30px;
+
+
+}
+ .dishInner{
+  display: flex;
+  justify-content: space-between;
+}
+.dish img{
+  width: 50%;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 3px solid rgb(204, 204, 50);
+
+
+}
+
+.dishInner{
+  border-top: 2px dotted black;
+}
+
+.dishPrice{
+  color: rgb(9, 11, 26);
+}
+footer{
+  text-align: center;
+}
+.dishName{
+  text-transform: capitalize;
+}
+
+#cartButtonCategory{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+#cartButton{
+  font-size: 20px;
+}
+.dishcartButton{
+  width: 150px;
+  padding: 10px 20px;
+  border:3px solid rgb(204, 204, 50);
+  background-color: rgb(145, 149, 17);
+}
+
+.dishcartButton:hover{
+  cursor: pointer;
+  border: 3px solid red;
+}
+#cart{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartDish img{
+  width: 20%;
+}
+.cartDish{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#cartHeading{
+  text-align: center;
+  margin: 20px;
+  color: blue;
+}
